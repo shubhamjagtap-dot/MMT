@@ -1,0 +1,8 @@
+result_page_identifier = '//div[@class = "flightBody"]'
+trip_type_one_way = '//label[@for="tripType"]//descendant::span[contains(text(),"One Way")]'
+from_city_text = '//label[@for="fromCity"]//descendant::span[2]'
+to_city_text = '//label[@for="toCity"]//descendant::span[contains(text(),"To City")]'
+depart_date = '//label[@for="departure"]//descendant::span[contains(text(),"Depart Date")]'
+select_return_date = '//label[@for="return"]//descendant::span[contains(text(),"Select Return")]'
+travelers_info = '//label[@for="travellers"]//descendant::span[contains(text(),"Adult")]'
+flight_list_container = '//div[contains(@class,"listingCardWrap")]'
